@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+    int month;
+    printf("enter month number");
+    scanf("%d",&month);
+    if(month==3||month==4||month==5)
+    {
+        printf("it is summer");
+    }
+   else
+   {
+        printf("it is not summer");
+    }
+}
